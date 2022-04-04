@@ -36,11 +36,8 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
-#service:
-#  type: LoadBalancer
-#  port: 8081
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 8081
 
 ingress:
