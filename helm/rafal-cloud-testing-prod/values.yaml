@@ -40,9 +40,9 @@ securityContext: {}
 #  type: LoadBalancer
 #  port: 8081
 service:
-  type: ClusterIP
+  type: NodePort
   port: 8081
-  
+
 ingress:
   enabled: false
   className: ""
